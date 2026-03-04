@@ -1,0 +1,3 @@
+FROM arm64v8/debian:13-slim
+LABEL org.opencontainers.image.source=https://github.com/sikalabsx/gohost
+COPY gohost /usr/local/bin/
